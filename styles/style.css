@@ -63,7 +63,7 @@ ol {
 .search-form {
   display: flex;
   flex-direction: row;
-  gap: 47px;
+  gap: 32px;
 }
 
 .search-form__fieldset-title {
@@ -133,7 +133,6 @@ ol {
   border: 1px solid #FFFFFF;
   background-color: transparent;
   color: #FFF;
-  text-transform: uppercase;
   font-weight: 700;
   cursor: pointer;
 }
@@ -232,6 +231,7 @@ ol {
 .search-form__label-text:hover {
   text-decoration: underline;
   text-underline-position: under;
+
 }
 
 .search-form__fieldset-title:hover {
