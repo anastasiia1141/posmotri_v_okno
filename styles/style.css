@@ -63,8 +63,7 @@ ol {
 .search-form {
   display: flex;
   flex-direction: row;
-  gap: 30px;
-
+  gap: 47px;
 }
 
 .search-form__fieldset-title {
@@ -242,19 +241,19 @@ ol {
 .content__list {
   overflow-x: hidden;
   overflow-y: scroll;
-  height: 310px;
+  height: 298px;
   position: relative;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   gap: 36px;
-
+  width: 398px;
 }
 
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 26px;
 }
 
 .result__video-container {
@@ -264,7 +263,7 @@ ol {
 
 .result__video {
   width: 711px;
-  height: 410px;
+  height: 386px;
   object-fit: cover;
   object-position: center;
 }
@@ -313,11 +312,9 @@ ol {
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
-  line-height: 75px;
+  line-height: 70px;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
 }
 
 .content__accent {
