@@ -74,7 +74,6 @@ ol {
 .search-form__label-text {
   font-size: 18px;
   color: #fff;
-  opacity: 70%;
   padding-bottom: 3px;
   appearance: none;
 }
@@ -130,7 +129,7 @@ ol {
   gap: 10px;
   width: 194px;
   height: 34px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #FFF;
   background-color: transparent;
   color: #FFF;
   font-weight: 700;
