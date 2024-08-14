@@ -65,6 +65,7 @@ ol {
   flex-direction: row;
   gap: 40px;
   align-items: flex-end;
+  justify-content: space-between;
 }
 
 .search-form__fieldset-title {
@@ -179,9 +180,11 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 26px;
+  width: 399px;
 }
 
 .result {
+  inline-size: 711px;
   align-self: flex-end;
 }
 
@@ -190,7 +193,7 @@ ol {
   position: relative;
   margin-bottom: 16px;
   block-size: 386px; 
-  inline-size: 711px;
+  inline-size: 100%;
 }
 
 .result__video {
@@ -254,7 +257,7 @@ ol {
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
+  line-height: 30px;
   text-transform: uppercase;
   color: #fff;
   text-overflow: ellipsis;
@@ -263,7 +266,8 @@ ol {
 }
 
 .content__video-card-description-container{
-
+  text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
 }
 
