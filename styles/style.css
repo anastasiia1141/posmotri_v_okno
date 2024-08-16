@@ -205,7 +205,7 @@ ol {
 }
 
 .content__card-link:hover {
-  text-decoration: underline 1px #fff;
+  text-decoration: underline #fff;
   cursor: pointer;
 }
 
@@ -256,6 +256,7 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  padding-bottom: 6px;
 }
 
 .content__video-card-description-container {
@@ -273,7 +274,6 @@ ol {
   font-size: 18px;
   line-height: 16px;
   color: #fff;
-  padding-top: 6px;
 }
 
 .content__video-card-thumbnail {
