@@ -114,10 +114,6 @@ ol {
   min-height: 34px;
 }
 
-.search-form__submit-button:active {
-  background-color: #545050;
-}
-
 .search-form__label {
   width: fit-content;
   display: flex;
@@ -295,6 +291,10 @@ ol {
   font-weight: 700;
   background-color: transparent;
   color: #fff;
+}
+
+.button:active {
+  background-color: #545050;
 }
 
 .more-button {
